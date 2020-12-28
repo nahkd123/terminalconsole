@@ -11,7 +11,7 @@ con.on("line", line => {
 });
 ```
 
-## Build & Test
+## Build
 ```console
 $ npm run build
 
