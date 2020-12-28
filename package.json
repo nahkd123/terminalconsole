@@ -1,5 +1,5 @@
 {
-  "name": "terminalconsole",
+  "name": "@nahkd123/terminalconsole",
   "version": "0.0.1",
   "description": "Just a regular (but beatifully looking) console",
   "main": "dist/index.js",
