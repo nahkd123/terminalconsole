@@ -33,7 +33,10 @@ export class TerminalConsole extends EventEmitter {
             ctrl: boolean, meta: boolean, shift: boolean
         }) => {
             // Pre
-            if (key.name === "c" && key.ctrl) process.exit();
+            if (key.name === "c" && key.ctrl) {
+                process.stdout.write("\n");
+                process.exit();
+            }
 
             if (key.name === "return") {
                 let text = this.historyPointer === -1? this._input : this.history[this.historyPointer];

@@ -21,6 +21,6 @@ setInterval(() => {
     case 5: con.reject("Rejected!"); break;
     default: break;
     }
-}, 5000);
+}, 500);
 
 con.info("Type something...");
